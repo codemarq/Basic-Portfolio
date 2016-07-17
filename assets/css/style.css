@@ -7,7 +7,7 @@ body {
 }
 
 header {
-	background-color: #66ccff;
+	background-color: #2eb8b8;
 	color: #ffffff;
 }
 
@@ -22,6 +22,11 @@ h1 {
 
 h2 {
 	font-size: 24px;
+	color: #2eb8b8;
+}
+
+h3 {
+	color: #2eb8b8;
 }
 
 .container {
