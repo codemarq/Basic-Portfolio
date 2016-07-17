@@ -7,7 +7,8 @@ body {
 }
 
 header {
-	background-color: #d21034;
+	background-color: #66ccff;
+	color: #ffffff;
 }
 
 h1 {
@@ -34,7 +35,7 @@ h2 {
 	line-height: 1.5;
 }
 
-#contactMeForm {
+#contactForm {
 	float: left;
 	width: 70%;
 	line-height: 1.5;
@@ -51,6 +52,12 @@ h2 {
 	width: 200px;
 	height: 200px;
 	padding: 5px;
+}
+
+footer {
+	clear: both;
+	overflow: auto;
+	text-align: center;
 }
 
 a {
