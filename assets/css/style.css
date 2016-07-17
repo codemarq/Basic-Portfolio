@@ -29,6 +29,10 @@ h3 {
 	color: #2eb8b8;
 }
 
+p{
+	color: #999999;
+}
+
 .container {
 	width: 1024px;
 	margin: 0 auto;
@@ -38,18 +42,25 @@ h3 {
 	float: left;
 	width: 70%;
 	line-height: 1.5;
+	background-color: #ffffff;
 }
 
 #contactForm {
 	float: left;
 	width: 70%;
 	line-height: 1.5;
+	background-color: #ffffff;
+	margin: 25px auto;
 }
 
 #connectBox {
 	float: left;
 	width: 30%;
 	line-height: 1.5;
+	background-color: #ffffff;
+	margin: 25px auto;
+	text-align: center;
+	padding: 10px;
 }
 
 #bioImage {
@@ -59,12 +70,30 @@ h3 {
 	padding: 5px;
 }
 
+nav {
+
+}
+
 footer {
 	clear: both;
 	overflow: auto;
 	text-align: center;
+	background-color: #999999;
+	color: #f2f2f2;
+	font-size: 10px;
+	font-family: sans-serif;
+	border-top-color: solid #2eb8b8;
+	border-top-width: 20px;
+	padding: 20px;
 }
 
 a {
-	color: #d21034;
+	background-color: #ffffff;
+	color: #999999;
+	text-decoration: none;
+}
+
+p img {
+	margin: 10px;
+	float: left;
 }
