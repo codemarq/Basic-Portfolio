@@ -1,5 +1,5 @@
 body {
-	background-color: #efeee7;
+	background-image: "assets/images/cork-wallet.png";
 	font-family: "Georgia", "Times New Roman", "Times", "serif";
 	font-color: #33333;
 	margin: 0;
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-	background-color: #2eb8b8;
+	background-color: #4aaaa5;
 	color: #ffffff;
 }
 
@@ -22,15 +22,15 @@ h1 {
 
 h2 {
 	font-size: 24px;
-	color: #2eb8b8;
+	color: #4aaaa5;
 }
 
 h3 {
-	color: #2eb8b8;
+	color: #4aaaa5;
 }
 
 p{
-	color: #999999;
+	color: #777777;
 }
 
 .container {
@@ -40,14 +40,14 @@ p{
 
 #aboutMe {
 	float: left;
-	width: 70%;
+	width: 650px;
 	line-height: 1.5;
 	background-color: #ffffff;
 }
 
 #contactForm {
 	float: left;
-	width: 70%;
+	width: 650px;
 	line-height: 1.5;
 	background-color: #ffffff;
 	margin: 25px auto;
@@ -55,7 +55,7 @@ p{
 
 #connectBox {
 	float: left;
-	width: 30%;
+	width: 270px;
 	line-height: 1.5;
 	background-color: #ffffff;
 	margin: 25px auto;
