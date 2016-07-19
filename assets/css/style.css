@@ -1,5 +1,4 @@
 body {
-	background-image: "assets/images/cork-wallet.png";
 	font-family: "Georgia", "Times New Roman", "Times", "serif";
 	font-color: #33333;
 	margin: 0;
@@ -7,35 +6,83 @@ body {
 }
 
 header {
-	background-color: #4aaaa5;
+	background-color: #ffffff;
 	color: #ffffff;
+	border-color: #cccccc;
+	margin: 0px 0px 50px 0px;
+	height: 100px;
 }
 
 h1 {
-	background-color:#33333;
+	background-color:#4aaaa5;
 	font-color: #FFFFFF;
 	font-size: 28px;
-	margin: 0;
+	margin: 0px 0px 0px 195px;
+	width: 160px;
+	height: auto;
 	text-align: center;
+	padding: 18px;
+	float: left;
+}
+
+#headerNav {
+	float: left;
+	height: 100px;
+	width: 300px;
+	text-align: center;
+	line-height: 50px
+	margin: 0px 0px 0px 0px;
+	background-color: #ffffff;
+	color: #999999;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	background-color: #ffffff;
+	color: #999999;
 	padding: 20px;
 }
 
 h2 {
 	font-size: 24px;
 	color: #4aaaa5;
+	padding: 10px;
+	margin-left: 20px;
 }
 
 h3 {
+	padding: 10px;
 	color: #4aaaa5;
 }
 
 p{
 	color: #777777;
+	padding: 15px;
 }
 
+br {
+
+}
+
+figcaption {
+	display: block;
+	width: 250px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	
+}
 .container {
-	width: 1024px;
+	width: 960px;
 	margin: 0 auto;
+}
+ 
+ #bioImage {
+	float: left;
+	width: 150px;
+	height: 150px;
+	padding: 5px;
 }
 
 #aboutMe {
@@ -43,6 +90,7 @@ p{
 	width: 650px;
 	line-height: 1.5;
 	background-color: #ffffff;
+	border-color: #dddddd;
 }
 
 #contactForm {
@@ -50,7 +98,15 @@ p{
 	width: 650px;
 	line-height: 1.5;
 	background-color: #ffffff;
-	margin: 25px auto;
+	border-color: #dddddd;
+}
+
+#gallery {
+	float: left;
+	width: 650px;
+	line-height: 1.5;
+	background-color: #ffffff;
+	border-color: #dddddd;
 }
 
 #connectBox {
@@ -58,20 +114,9 @@ p{
 	width: 270px;
 	line-height: 1.5;
 	background-color: #ffffff;
-	margin: 25px auto;
+	margin: 0px 0px 0px 680px;
 	text-align: center;
-	padding: 10px;
-}
-
-#bioImage {
-	float: left;
-	width: 200px;
-	height: 200px;
-	padding: 5px;
-}
-
-nav {
-
+	border-color: #dddddd;
 }
 
 footer {
@@ -79,21 +124,23 @@ footer {
 	overflow: auto;
 	text-align: center;
 	background-color: #999999;
-	color: #f2f2f2;
+	color: #ffffff;
 	font-size: 10px;
 	font-family: sans-serif;
-	border-top-color: solid #2eb8b8;
-	border-top-width: 20px;
 	padding: 20px;
-}
-
-a {
-	background-color: #ffffff;
-	color: #999999;
-	text-decoration: none;
 }
 
 p img {
 	margin: 10px;
 	float: left;
+}
+
+#gallery img {
+	width: 250px;
+	height: 125px;
+}
+
+form {
+	padding-left: 30px;
+	padding-bottom: 30px;
 }
