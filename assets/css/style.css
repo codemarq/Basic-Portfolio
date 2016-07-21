@@ -8,20 +8,22 @@ body {
 header {
 	background-color: #ffffff;
 	color: #ffffff;
+	border-bottom-style: solid;
+	border-bottom-width: 5px;
 	border-color: #cccccc;
 	margin: 0px 0px 50px 0px;
-	height: 100px;
+	height: 90px;
 }	
 
 h1 {
 	background-color:#4aaaa5;
 	font-color: #FFFFFF;
-	font-size: 28px;
+	font-size: 26px;
 	margin: 0px 0px 0px 195px;
 	width: 160px;
 	height: auto;
 	text-align: center;
-	padding: 18px;
+	padding: 15px;
 	float: left;
 }
 
@@ -30,10 +32,9 @@ h1 {
 	height: 100px;
 	width: 300px;
 	text-align: center;
-	/*line-height: 50px*/
+	line-height: 100px;
 	margin: 0px 195px 0px 0px;
-	/*background-color: #ffffff*/
-	background-color: #999999;
+	background-color: #ffffff
 	color: #999999;
 	text-decoration: none;
 }
@@ -41,8 +42,7 @@ h1 {
 #headerNav a {
 	position: relative;
 	text-decoration: none;
-	background-color: red;
-	/*background-color: #ffffff;*/
+	background-color: #ffffff;
 	color: #999999;
 	padding: 20px;
 	height: 64px;
@@ -117,9 +117,12 @@ footer {
 	text-align: center;
 	background-color: #999999;
 	color: #ffffff;
-	font-size: 10px;
+	font-size: 12px;
 	font-family: sans-serif;
-	padding: 20px;
+	line-height: 80px;
+	border-top-style: solid;
+	border-top-width: 10px;
+	border-top-color: #4aaaa5;
 }
 
 p img {
