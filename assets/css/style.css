@@ -7,8 +7,9 @@ body {
 
 p {
 	color: #777777;
-	padding: 0px;
+	padding: 5px;
 	margin: 0px 30px 0px 30px;
+	font-family: arial;
 }
 
 header {
@@ -34,7 +35,7 @@ h1 {
 }
 
 #headerNav {
-	font-style: sans-serif;
+	font-family: sans-serif;
 	float: right;
 	height: 100px;
 	width: 300px;
@@ -111,7 +112,8 @@ section {
 	float: left;
 	width: 200px;
 	height: 200px;
-	padding: 5px;
+	padding: 0px;
+	margin: 5px 10px 5px 0px;
 }
 
 aside {
@@ -142,10 +144,13 @@ footer {
 	margin-bottom: 0px;
 }
 
-p img {
-	margin: 10px;
+/*p img {
 	float: left;
-}
+	width: 200px;
+	height: 200px;
+	padding: 0px;
+	margin: 0px 10px 5px 0px;
+}*/
 
 #gallery img {
 	max-width: 200px;
@@ -155,6 +160,7 @@ p img {
 form {
 	padding-left: 30px;
 	padding-bottom: 30px;
+	font-family: sans-serif;
 }
 
 input {
@@ -168,4 +174,13 @@ textarea {
 	margin-left: 30px;
 	width: 450px;
 	height: 200px;
+}
+
+#submitButton {
+	max-width: 80px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
 }
