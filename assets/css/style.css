@@ -5,11 +5,17 @@ body {
 	padding: 0;
 }
 
+p {
+	color: #777777;
+	padding: 0px;
+	margin: 0px 30px 0px 30px;
+}
+
 header {
 	background-color: #ffffff;
 	color: #ffffff;
 	border-bottom-style: solid;
-	border-bottom-width: 5px;
+	border-bottom-width: 3px;
 	border-color: #cccccc;
 	margin: 0px 0px 50px 0px;
 	height: 90px;
@@ -28,6 +34,7 @@ h1 {
 }
 
 #headerNav {
+	font-style: sans-serif;
 	float: right;
 	height: 100px;
 	width: 300px;
@@ -44,25 +51,30 @@ h1 {
 	text-decoration: none;
 	background-color: #ffffff;
 	color: #999999;
-	padding: 20px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	margin: 20px auto;
+	padding: 0px 10px 0px 10px;
 	height: 64px;
 }
 
 h2 {
 	font-size: 24px;
 	color: #4aaaa5;
-	padding: 10px;
-	margin-left: 20px;
+	padding: 10px 0px 20px 0px;
+	margin: 30px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
 }
 
 h3 {
 	padding: 10px;
+	margin: 10px;
 	color: #4aaaa5;
-}
-
-p {
-	color: #777777;
-	padding: 15px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
 }
 
 figure{
@@ -89,13 +101,16 @@ section {
 	width: 650px;
 	line-height: 1.5;
 	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
 	border-color: #dddddd;
-	margin: 10px;
+	margin: 5px;
+	margin-bottom: 30px;
 }
  #bioImage {
 	float: left;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	padding: 5px;
 }
 
@@ -104,18 +119,19 @@ aside {
 	width: 270px;
 	line-height: 1.5;
 	background-color: #ffffff;
-	margin: 10px;
-	/*margin: 0px 0px 0px 680px;*/
+	margin: 5px;
 	text-align: center;
+	border-style: solid;
+	border-width: 1px;
 	border-color: #dddddd;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 footer {
 	clear: both;
 	overflow: auto;
 	text-align: center;
-	background-color: #999999;
+	background-color: #666666;
 	color: #ffffff;
 	font-size: 12px;
 	font-family: sans-serif;
@@ -123,6 +139,7 @@ footer {
 	border-top-style: solid;
 	border-top-width: 10px;
 	border-top-color: #4aaaa5;
+	margin-bottom: 0px;
 }
 
 p img {
@@ -138,4 +155,17 @@ p img {
 form {
 	padding-left: 30px;
 	padding-bottom: 30px;
+}
+
+input {
+	margin-left: 30px;
+	margin-bottom: 10px;
+	width: 450px;
+	height: 30px;
+}
+
+textarea {
+	margin-left: 30px;
+	width: 450px;
+	height: 200px;
 }
